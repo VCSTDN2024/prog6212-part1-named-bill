@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "My Claims";
+}
+<h2>My Claims</h2>
+<p><a class="btn btn-primary" asp-action="Submit">Submit New Claim</a></p>
+<table class="table">
+    <thead><tr><th>Claim ID</th><th>Month</th><th>Total</th><th>Status</th><th>Actions</th></tr></thead>
+    <tbody>
+        <tr>
+            <td>1001</td>
+            <td>Aug 2025</td>
+            <td>420.00</td>
+            <td>Pending</td>
+            <td><a class="btn btn-sm btn-outline-primary" asp-action="Approvals">View</a></td>
+        </tr>
+    </tbody>
+</table>
